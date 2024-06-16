@@ -1,7 +1,9 @@
+// Especifica o pacote ao qual a classe pertence.
 package projetoFinal;
-// Usuario.java
 
+// Declaração da classe pública Usuario.
 public class Usuario {
+    // Declaração de variáveis privadas para armazenar as propriedades do usuário.
     private double peso;
     private double altura;
     private int idade;
@@ -11,6 +13,7 @@ public class Usuario {
     private String preferenciasAlimentares;
     private String objetivo;
 
+    // Construtor da classe que inicializa as variáveis com valores fornecidos.
     public Usuario(double peso, double altura, int idade, String sexo, String classeSocial, String nivelAtividade, String preferenciasAlimentares, String objetivo) {
         this.peso = peso;
         this.altura = altura;
@@ -22,7 +25,7 @@ public class Usuario {
         this.objetivo = objetivo;
     }
 
-    // Getters
+    // Métodos 'getters' para acessar os valores das propriedades do usuário.
     public double getPeso() { return peso; }
     public double getAltura() { return altura; }
     public int getIdade() { return idade; }
