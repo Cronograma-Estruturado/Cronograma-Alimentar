@@ -10,7 +10,7 @@ import java.net.http.HttpResponse;
 // Declaração da classe pública ApiOpenAi.
 public class ApiOpenAi {
     // Constantes para armazenar a chave da API e a URL base para requisições.
-    private static final String API_KEY = "sk-proj-WFaA4Xy9AWoxfQZybgPGT3BlbkFJ7zw4ZhFsXjX0WGjHWCHe";
+    private static final String API_KEY = "sk-proj-5Tq5UM8bPmoVVnIaIAuGT3BlbkFJzgeqM3vT9dEwN2bLk1j2";
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
 
     // Método estático que recebe um objeto do tipo Usuario e retorna um String.
